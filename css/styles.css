@@ -538,20 +538,6 @@ img {
     background-color: var(--green);
 }
 
-:root {
-    --iris: #4d5ae5;
-    --ocean: #404bbf;
-    --navy: #2e2f42;
-    --green: #31d0aa;
-    --slate: #434455;
-    --light-grey: #8e8f99;
-    --cornflower: #e7e9fc;
-    --cloud: #f4f4fd;
-    --bluemodal: #2e2f42;
-    --white: #ffffff;
-    --dairy: #fcfcfc;
-}
-
 .backdrop {
     position: fixed;
     width: 100%;
@@ -767,6 +753,23 @@ img {
     background-color: var(--ocean);
     border: none;
     fill: var(--cloud);
+}
+
+.button-sent {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
+        background: var(--IRIS, #4D5AE5);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 :root {
