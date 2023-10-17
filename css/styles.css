@@ -605,6 +605,7 @@ width: 264px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
  .footer-forma-button:hover,
@@ -751,7 +752,7 @@ width: 264px;
 
 .modal-icon {
     position: absolute;
-    fill: var(--bluemodal);
+    
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
@@ -783,6 +784,7 @@ width: 264px;
 
 .modal-comment:focus {
     border-color: var(--iris);
+    border-color: #4D5AE5;
 }
 
 .modal-form-items-box {
@@ -835,9 +837,9 @@ width: 264px;
 }
 
 .modal-check:checked+.form-label-check>.modal-item-check {
-    background-color: var(--ocean);
+    background-color: #404bbf;
     border: none;
-    fill: var(--cloud);
+    fill: #F4F4FD;
 }
 
 .button {
@@ -868,7 +870,9 @@ display: block;
 
    .button:hover,
    .button:focus {
-       background-color: var(--ocean);
+    background-color: #404bbf;
+    border: none;
+    fill: #ffffff
    }
 
 
