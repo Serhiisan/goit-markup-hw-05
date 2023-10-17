@@ -133,6 +133,11 @@ img {
     position: relative;
 }
 
+.header-link:hover,
+.header-link:focus {
+    color: #404bbf;
+}
+
                 .nav-menu-item:hover,
                 .nav-menu-item:focus {
                     color: #404bbf;
@@ -482,7 +487,6 @@ img {
 }
 
 .footer .logo {
-    margin-bottom: 16px;
 }
 
 .footer-text {
