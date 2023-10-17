@@ -632,12 +632,11 @@ width: 264px;
     overflow: auto;
     transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1),
             visibility 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
-.backdrop.is-open {
-    visibility: visible;
+.backdrop .is-open {
     opacity: 1;
+    visibility: visible;
     pointer-events: auto;
 }
 
@@ -659,7 +658,6 @@ width: 264px;
 
 .modal-form {
     position: relative;
-    margin-top: 16px;
 }
 
 .modal-form .button {
